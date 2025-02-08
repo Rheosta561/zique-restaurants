@@ -107,7 +107,7 @@ function ProfilePage() {
         }
 
         try {
-            const response = await axios.post(`http://localhost:3000/profile/${userId}`, data, {
+            const response = await axios.post(`https://zique-restaurants-portal.onrender.com/profile/${userId}`, data, {
                 headers: {
                     'Content-Type': 'multipart/form-data',
                 },
