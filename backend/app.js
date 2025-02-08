@@ -9,7 +9,7 @@ const cloudinary = require("./cloudinary");
 const multer = require('multer');
 conn();
 const cors = require('cors')
-
+app.use(cors());
 const mongoose = require('mongoose');
 
 app.use(express.json());
